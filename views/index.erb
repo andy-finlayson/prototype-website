@@ -1,19 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Prototype website</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/application.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
 </head>
+
 <body>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
-       <div class="navbar-header">
-         <a class="navbar-brand" href="#">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
            <img alt="brand" src="https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/glyphicon.png">
          </a>
-       </div>
+      </div>
       <h4 class="navbar-text">Prototype Inc.</h4>
-     </div>
-   </nav>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li id="about" class="active"><a href="#">About</a></li>
+          <li id="prototype"><a href="#">Prototypes</a></li>
+          <li id="contact"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <div class="jumbotron">
+          <div class="about">
+            <div class="prototype hidden">
+              <h2>Our Top Secret Prototype</h2>
+              <img src="https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/tsPrototype.png" class="img-responsive img-rounded"></img>
+            </div>
+            <h2>Home of the World's Best Prototypes</h2>
+            <p>
+              A prototype is an early sample, model, or release of a product built to test a concept or process or to act as a thing to be replicated or learned from. It is a term used in a variety of contexts, including semantics, design, electronics, and software
+              programming. A prototype is generally used to evaluate a new design to enhance precision by system analysts and users. Prototyping serves to provide specifications for a real, working system rather than a theoretical one. In some design
+              workflow models, creating a prototype (a process sometimes called materialization) is the step between the formalization and the evaluation of an idea.
+            </p>
+            <p>This website showcases some of the most prototypical of prototypes.</p>
+          </div>
+          <div class="prototype hidden">
+            <h2>Our Top Secret Prototype</h2>
+            <img src="https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/tsPrototype.png" class="img-responsive img-rounded"></img>
+          </div>
+          <div class="contact hidden">
+            <h2>Contact Us</h2>
+
+            <strong>Via snailmail</strong>
+            <address>
+  Prototype, Inc.<br>
+  1 Prototype Tower<br>
+  London<br>
+  PO00PP
+  </address>
+
+            <strong>Via the Interwebs</strong>
+            <a href="mailto:#">example@example.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="/javascript/app.js"></script>
+
 </body>
+
 </html>
